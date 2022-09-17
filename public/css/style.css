@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+}
+.sec2{
+    /* border: 2px solid grey; */
+    /* margin-top: 30px; */
+    width: 40%;
+
+}
+.myform{
+    padding: 20px;
+}
+.btn{
+    margin: 5px;
+}
+label{
+    margin: 5px 0;
+}
+.myform span{
+    color: red;
+}
+ 
+@media screen and (max-width: 1005px) {
+    .sec1 img{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .sec1{
+        width: 50%;
+    }
+    .myform label{
+        font-size: 15px;
+    }
+    .myform input{
+        padding: 2px 5px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .container{
+        display: block;
+    }
+    .sec1 img{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .sec1{
+        margin: auto;
+        width: 50%;
+    }
+    .sec2{
+        margin: auto;
+        width: 50%;
+    }
+    .myform label{
+        font-size: 12px;
+    }
+    .myform input{
+        font-size: 11px;
+        padding: 0.1px 4px;
+    }
+    .myform small{
+        font-size: 7px;
+    }
+}
